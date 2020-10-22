@@ -43,4 +43,4 @@ Please excuse my slow moves, turn on audio to hear the text to speech.
 Shoutout to [Zachary Tu](https://www.chess.com/member/zacharytu) for helping me test it out!
 
 <video src="2020-10-22 01-20-28.mp4"></video>
-
+[The Video](https://github.com/maximkha/xXchessdotcomXx/blob/master/2020-10-22%2001-20-28.mp4)

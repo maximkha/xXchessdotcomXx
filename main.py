@@ -8,7 +8,7 @@ from stockfish import Stockfish
 def index():
     if 'fen' not in request.args.keys():
         return "no fen"
-    stockfish = Stockfish(r"C:\Users\maxim\Desktop\js\xXchessdotcomXx\stockfish_20090216_x64_bmi2.exe", parameters = {"Threads": 2})
+    stockfish = Stockfish(r"stockfish_20090216_x64_bmi2.exe", parameters = {"Threads": 2})
     stockfish.set_depth(15)
     stockfish.set_fen_position(request.args.get('fen') + "KQkq - 0 0")
     bestMove = stockfish.get_best_move() #stockfish.get_best_move_time(2000)
